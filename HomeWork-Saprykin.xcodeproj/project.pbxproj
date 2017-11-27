@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F568E02F1FCAF5F500E5E7BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F568E02E1FCAF5F500E5E7BB /* main.cpp */; };
+		F568E03A1FCAF74100E5E7BB /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F568E0391FCAF74100E5E7BB /* map.cpp */; };
+		F568E03E1FCB2E0100E5E7BB /* AStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F568E03C1FCB2E0100E5E7BB /* AStar.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,13 @@
 /* Begin PBXFileReference section */
 		F568E02B1FCAF5F500E5E7BB /* HomeWork-Saprykin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HomeWork-Saprykin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F568E02E1FCAF5F500E5E7BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F568E0361FCAF68A00E5E7BB /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
+		F568E0371FCAF6C500E5E7BB /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		F568E0381FCAF70E00E5E7BB /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		F568E0391FCAF74100E5E7BB /* map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = map.cpp; sourceTree = "<group>"; };
+		F568E03B1FCAF83600E5E7BB /* map.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = map.txt; sourceTree = "<group>"; };
+		F568E03C1FCB2E0100E5E7BB /* AStar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AStar.cpp; sourceTree = "<group>"; };
+		F568E03D1FCB2E0100E5E7BB /* AStar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AStar.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			children = (
 				F568E02D1FCAF5F500E5E7BB /* HomeWork-Saprykin */,
 				F568E02C1FCAF5F500E5E7BB /* Products */,
+				F568E03B1FCAF83600E5E7BB /* map.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +67,23 @@
 		F568E02D1FCAF5F500E5E7BB /* HomeWork-Saprykin */ = {
 			isa = PBXGroup;
 			children = (
+				F568E0351FCAF65100E5E7BB /* headers */,
 				F568E02E1FCAF5F500E5E7BB /* main.cpp */,
+				F568E0391FCAF74100E5E7BB /* map.cpp */,
+				F568E03C1FCB2E0100E5E7BB /* AStar.cpp */,
 			);
 			path = "HomeWork-Saprykin";
+			sourceTree = "<group>";
+		};
+		F568E0351FCAF65100E5E7BB /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				F568E03D1FCB2E0100E5E7BB /* AStar.hpp */,
+				F568E0361FCAF68A00E5E7BB /* base.h */,
+				F568E0371FCAF6C500E5E7BB /* matrix.h */,
+				F568E0381FCAF70E00E5E7BB /* map.h */,
+			);
+			path = headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F568E03E1FCB2E0100E5E7BB /* AStar.cpp in Sources */,
+				F568E03A1FCAF74100E5E7BB /* map.cpp in Sources */,
 				F568E02F1FCAF5F500E5E7BB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +258,8 @@
 		F568E0331FCAF5F500E5E7BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J667AP6E7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -241,6 +269,8 @@
 		F568E0341FCAF5F500E5E7BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J667AP6E7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
