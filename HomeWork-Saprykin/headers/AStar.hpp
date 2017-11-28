@@ -28,10 +28,14 @@ namespace AS {
         //set<Point, PointCmp> pathMapset; // change to vector
         shared_ptr<Point> find_min_f(const set<shared_ptr<Point>> &);
         double distance(shared_ptr<Point> A, shared_ptr<Point> B);
-        
+        vector<shared_ptr<Point>> reconstruct_Path(const shared_ptr<Point> &start, const shared_ptr<Point> &finish);
+        vector<shared_ptr<Point>> GlobalPath;
+        void PrintPath(const vector<shared_ptr<Point>> & _v);
+        bool isPointerInSet(const shared_ptr<Point> & p, set<shared_ptr<Point>>  s);
     public:
         AStar() = default;
         void FindPath(shared_ptr<Point> start, shared_ptr<Point> finish , Map &);
+        
     };
 }
 #endif /* AStar_hpp */
