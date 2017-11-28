@@ -14,18 +14,6 @@
 using namespace std;
 using Cords = pair<int, int>;
 namespace AS {
-//struct Point {
-//        int m;
-//        int n;
-//        double g; //стоимость пути от начальной вершины
-//        double h; //Эвристическая оценка расстояния до цели
-//        double f;
-//        Point(int _m, int _n);
-//        Point(Cords c);
-//        bool operator== (const Point & b){
-//            return m == b.m && n == b.n;
-//        }
-//    };
     struct PointCmp{
         bool operator() (const Point & a, const Point & b){
             return a.m == b.m && a.n == b.n;
@@ -38,7 +26,7 @@ namespace AS {
         //set<shared_ptr<Point>, PointCmp> closedSet;
         //set<shared_ptr<Point>, PointCmp> openSet;
         //set<Point, PointCmp> pathMapset; // change to vector
-        shared_ptr<Point> find_min_f(const set<shared_ptr<Point>, PointCmp> &);
+        shared_ptr<Point> find_min_f(const set<shared_ptr<Point>> &);
         double distance(shared_ptr<Point> A, shared_ptr<Point> B);
         
     public:

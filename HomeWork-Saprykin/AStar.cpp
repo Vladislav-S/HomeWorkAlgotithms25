@@ -19,7 +19,7 @@
 double AS::AStar::distance(shared_ptr<Point> A, shared_ptr<Point> B){
     return sqrt(pow(B.get()->n-A.get()->n, 2)+pow(B.get()->m-A.get()->m, 2));
 }
-shared_ptr<Point> AS::AStar::find_min_f(const set<shared_ptr<Point>, PointCmp> & s){
+shared_ptr<Point> AS::AStar::find_min_f(const set<shared_ptr<Point>> & s){
     double f = INFINITY;
     shared_ptr<Point> p;
     for(auto a : s){
@@ -32,8 +32,8 @@ shared_ptr<Point> AS::AStar::find_min_f(const set<shared_ptr<Point>, PointCmp> &
 }
 
 void AS::AStar::FindPath(shared_ptr<Point> start, shared_ptr<Point> finish, Map & m){
-    set<shared_ptr<Point>, PointCmp> closedSet;
-    set<shared_ptr<Point>, PointCmp> openSet;
+    set<shared_ptr<Point>> closedSet;
+    set<shared_ptr<Point>> openSet;
     vector<shared_ptr<Point>> pathMapset; // change to vector
 
     start.get()->g = 0;
@@ -45,13 +45,14 @@ void AS::AStar::FindPath(shared_ptr<Point> start, shared_ptr<Point> finish, Map 
     while (!openSet.empty()){
         // x = вершина из openset  с наименьшим f
         shared_ptr<Point> X = find_min_f(openSet);
-        if(X.get() == finish.get()){
+        if(X == finish){
             //reconstruct_path
+            return;
         }
         
         openSet.erase(X);
         closedSet.insert(X);
-        //m.Neighbors(X);
+        cout << m.Neighbors(X).size() << endl;
         for(auto Y : m.Neighbors(X)){
             //если У среди посещенных, пропускаем
             if(closedSet.find(Y) != closedSet.end()){
@@ -72,7 +73,7 @@ void AS::AStar::FindPath(shared_ptr<Point> start, shared_ptr<Point> finish, Map 
             
             //объявление свойств соседа
             if(tentative_is_better){
-                Y.get()->came_from = X;
+                Y.get()->came_from = X; //если поменять на просто Point - так сделать будет нельзя, тогда юзаю 
                 Y.get()->g = tentative_g_score;
                 Y.get()->h = distance(Y, finish);
                 Y.get()->f = Y.get()->g + Y.get()->h;

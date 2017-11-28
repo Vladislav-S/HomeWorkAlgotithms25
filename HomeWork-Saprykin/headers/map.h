@@ -16,7 +16,6 @@ using namespace std;
 using Cords = pair<int, int>;
 using bAndCords = pair<bool, vector<Cords>>;
 using dataAndCords = pair<vector<int>, vector<Cords>>; //(int)canGoBack, doors, keys
-
 struct Point {
     int m;
     int n;
@@ -26,8 +25,8 @@ struct Point {
     shared_ptr<Point> came_from;
     Point(int _m, int _n){m = _m; n = _n;}
     Point(Cords c){
-        m = c.second; //проверить
-        n = c.first;
+        m = c.first; //проверить
+        n = c.second;
     }
     Point(const Point & p){
         m = p.m; n=p.n; g=p.g; h=p.h; f=p.f;
@@ -39,7 +38,13 @@ struct Point {
         return m == b.m && n == b.n;
     }
 };
+bool operator==(const shared_ptr<Point> & l, const shared_ptr<Point> & r);
 
+class my_shared_pointer :public shared_ptr<Point>{
+public:
+    my_shared_pointer(){shared_ptr();}
+    my_shared_pointer(Point){shared_ptr(make_shared(Point));}
+};
 class Map{
 private:
     int argc{0};
@@ -51,6 +56,7 @@ private:
     //4-exit, 5-only up, 6-only right, 7-only down, 8-only left, 9-door, 10-key
     enum way {up = 0, right = 1, down = 2, left = 3};
     void parse_file(char *);
+    bool out_of_range(int _m, int _n);
     //Graph g;
     //Cords heroCords;
 public:
@@ -61,7 +67,7 @@ public:
     void start(int argc, char *argv[]);
     shared_ptr<Point> whereIsHeroSymbol();
     shared_ptr<Point> whereIsExitSymbol();
-
+    void Print(){m.Print();}
     
 };
 #endif /* map_h */

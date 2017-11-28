@@ -11,13 +11,12 @@
 using namespace std;
 
 int main(int argc, char * argv[]) {
-    // insert code here...
-    //cout << argv[0] << endl;
+    cout << argv[0] << endl;
     Map m;
     AS::AStar A;
     m.start(argc, argv);
+    m.Print();
     A.FindPath(m.whereIsHeroSymbol(), m.whereIsExitSymbol(), m);
 
-    //std::cout << "Hello, World!\n";
     return 0;
 }
