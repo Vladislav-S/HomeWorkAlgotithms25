@@ -38,7 +38,7 @@ vector<shared_ptr<Point>> Map::Neighbors(shared_ptr<Point> p){
     if(!out_of_range(base.first-1, base.second)){
         if(
            m[base.first-1][base.second] != symbols[7] && //d
-           m[base.first-1][base.second] != symbols[2]){
+           m[base.first-1][base.second] != symbols[2]){ //#
             v.push_back(make_shared<Point>(Cords(base.first-1, base.second)));
         }
     }
@@ -151,5 +151,16 @@ shared_ptr<Point> Map::whereIsExitSymbol(){ //где символ героя tod
         }
     }
     throw "no exit symbol found, check your Map";
+}
+
+bool Map::isDoor(const shared_ptr<Point> & p){
+    if(out_of_range(p.get()->m, p.get()->n)) throw; //out of range;
+    if(m[p.get()->m][p.get()->n] == symbols[9]) return true;
+    return false;
+}
+bool Map::isKey(const shared_ptr<Point> & p){
+    if(out_of_range(p.get()->m, p.get()->n)) throw; //out of range;
+    if(m[p.get()->m][p.get()->n] == symbols[10]) return true;
+    return false;
 }
 //TODO: сжедать интерфейс для работы с матрицей

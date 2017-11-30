@@ -26,7 +26,12 @@ namespace AS {
         //set<shared_ptr<Point>, PointCmp> closedSet;
         //set<shared_ptr<Point>, PointCmp> openSet;
         //set<Point, PointCmp> pathMapset; // change to vector
+        set<shared_ptr<Point>> doors;
+        set<shared_ptr<Point>> keys;
+        set<shared_ptr<Point>> visited_doors;
+        set<shared_ptr<Point>> visited_keys;
         shared_ptr<Point> find_min_f(const set<shared_ptr<Point>> &);
+        shared_ptr<Point> find_min_in_set_between2(const shared_ptr<Point> & a, const shared_ptr<Point> & b, set<shared_ptr<Point>> s);
         double distance(shared_ptr<Point> A, shared_ptr<Point> B);
         vector<shared_ptr<Point>> reconstruct_Path(const shared_ptr<Point> &start, const shared_ptr<Point> &finish);
         vector<shared_ptr<Point>> GlobalPath;
@@ -34,8 +39,15 @@ namespace AS {
         bool isPointerInSet(const shared_ptr<Point> & p, set<shared_ptr<Point>>  s);
     public:
         AStar() = default;
-        void FindPath(shared_ptr<Point> start, shared_ptr<Point> finish , Map &);
+        vector<shared_ptr<Point>> FindPath(shared_ptr<Point> start, shared_ptr<Point> finish , Map &);
+        void Work(Map &);
         
+    };
+    class my_exception{
+        string what;
+    public:
+        my_exception(string _what) : what(_what){;}
+        string What() const {return what;}
     };
 }
 #endif /* AStar_hpp */

@@ -16,7 +16,14 @@ int main(int argc, char * argv[]) {
     AS::AStar A;
     m.start(argc, argv);
     m.Print();
-    A.FindPath(m.whereIsHeroSymbol(), m.whereIsExitSymbol(), m);
+    try {
+         A.Work(m);
+    } catch (const AS::my_exception & ex) {
+        cout << ex.What() << endl;
+    } catch (const exception & ex){
+       cout << ex.what() << endl;
+    }
+   
 
     return 0;
 }

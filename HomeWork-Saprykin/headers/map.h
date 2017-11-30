@@ -37,6 +37,9 @@ struct Point {
     bool operator== (const Point & b){
         return m == b.m && n == b.n;
     }
+    void copy_coords(const shared_ptr<Point> &p){
+        m = p.get()->m; n = p.get()->n;
+    }
 };
 bool operator==(const shared_ptr<Point> & l, const shared_ptr<Point> & r);
 
@@ -67,6 +70,9 @@ public:
     void start(int argc, char *argv[]);
     shared_ptr<Point> whereIsHeroSymbol();
     shared_ptr<Point> whereIsExitSymbol();
+    bool isDoor(const shared_ptr<Point> & p);
+    bool isKey(const shared_ptr<Point> & p);
+
     void Print(){m.Print();}
     
 };

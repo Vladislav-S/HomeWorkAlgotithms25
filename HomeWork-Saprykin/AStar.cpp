@@ -31,6 +31,20 @@ shared_ptr<Point> AS::AStar::find_min_f(const set<shared_ptr<Point>> & s){
     return p;
 }
 
+shared_ptr<Point> AS::AStar::find_min_in_set_between2(const shared_ptr<Point> & a, const shared_ptr<Point> & b, set<shared_ptr<Point>> s){
+    //a, b, s
+    shared_ptr<Point> tmp;
+    double D = INFINITY; //distance
+    for(auto i : s){
+        if((distance(i, a) + distance(i, b)) < D){
+            D = distance(i, a) + distance(i, b);
+            tmp = i;
+        }
+    }
+    
+    return tmp;
+}
+
 vector<shared_ptr<Point>> AS::AStar::reconstruct_Path(const shared_ptr<Point> &start, const shared_ptr<Point> &finish){
     vector<shared_ptr<Point>> v;
     shared_ptr<Point> current = finish;
@@ -52,11 +66,26 @@ bool AS::AStar::isPointerInSet(const shared_ptr<Point> & p, set<shared_ptr<Point
     }
     return false;
 }
-void AS::AStar::FindPath(shared_ptr<Point> start, shared_ptr<Point> finish, Map & m){
+
+void AS::AStar::Work(Map & m){
+    vector<shared_ptr<Point>> path =
+    FindPath(m.whereIsHeroSymbol(), m.whereIsExitSymbol(), m);
+    if(path.empty()){
+        cout << "no way to exit" << endl;
+        return;
+    }
+    PrintPath(path);
+}
+vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_ptr<Point> _finish, Map & m){
+    //при углублении, передача start-finish, сохраняет свои направления
     set<shared_ptr<Point>> closedSet;
     set<shared_ptr<Point>> openSet;
     vector<shared_ptr<Point>> pathMapset; // change to vector
-
+    //тест
+    //start.get()->
+    shared_ptr<Point> start(make_shared<Point>(_start.get()->m, _start.get()->n));
+    shared_ptr<Point> finish(make_shared<Point>(_finish.get()->m, _finish.get()->n));
+    
     start.get()->g = 0;
     start.get()->h = distance(start, finish);
     start.get()->f = start.get()->g + start.get()->h;
@@ -69,18 +98,36 @@ void AS::AStar::FindPath(shared_ptr<Point> start, shared_ptr<Point> finish, Map 
         if(X == finish){
             //reconstruct_path
             finish = X; //издержки С++
-            GlobalPath = reconstruct_Path(start, finish);
-            PrintPath(GlobalPath);
-            return;
+            pathMapset = reconstruct_Path(start, finish);
+            //PrintPath(pathMapset);
+            return pathMapset;
         }
+        
         
         openSet.erase(X);
         closedSet.insert(X);
-        cout << m.Neighbors(X).size() << endl;
+        //cout << m.Neighbors(X).size() << endl;
         for(auto Y : m.Neighbors(X)){
             //если У среди посещенных, пропускаем
             if(isPointerInSet(Y, closedSet)){
                 continue;
+            }
+            //if y is door or key
+            if(m.isDoor(Y)){
+                if(isPointerInSet(Y, visited_doors)){
+                    continue;
+                }
+                if(!isPointerInSet(Y, doors)){
+                    doors.insert(Y);
+                }
+                if(Y != finish){
+                    continue; //если идем от ключа до двери, дверь как финиш
+                }
+            }else if(m.isKey(Y)){
+                //если не использованный и не посещенный
+                if(!isPointerInSet(Y, keys) && !isPointerInSet(Y, visited_keys)){
+                    keys.insert(Y);
+                }
             }
             //вычисляем g(x) для обрабатываемого соседа
             double tentative_g_score = X.get()->g + distance(X, Y);
@@ -105,7 +152,55 @@ void AS::AStar::FindPath(shared_ptr<Point> start, shared_ptr<Point> finish, Map 
             }
         }
     }
-    return;
+    //если не обнаружили пути выхода
+    //проверить, есть ли двери
+    /*
+     далее в цикле проверить все ключи и все двери, ключ найти ближайший, дверь тоже, если дверь не подойдет, идти к следующей ближайшей двери, если подойдет, добавить ключ-дверь как опорные точки, запомнить путь между ними. While(door is not empty)
+     смотрим кратчайшее расстояние от старта до двери и от двери до финиша
+     */
+    while(!doors.empty()){
+
+        //найти выгодную дверь
+        shared_ptr<Point> _door = find_min_in_set_between2(start, finish, doors);
+        //найти ближайший ключ
+        shared_ptr<Point> _key = find_min_in_set_between2(start, _door, keys);
+        //если нет ключей - break
+        if(_key.get() == nullptr) break;
+        
+        //проложить путь от старта до ключа
+        vector<shared_ptr<Point>> _pathToKey = FindPath(start, _key, m);
+        //если нет пути, удалить ключ, continue //нет необходимости //notodo
+        if(_pathToKey.empty()){
+            //nothing
+        }
+        //проложить путь от ключа до двери
+        vector<shared_ptr<Point>> _pathToDoor = FindPath(_key, _door, m);
+        //если нет пути, удалить ключ, continue //notodo
+        if(_pathToDoor.empty()){
+            //nothing
+        }
+        //если оба пути есть и выгодны, заносим их в массив путей, (проверяем остальные)-todo
+        //TODO
+        
+        //получить путь от двери до финиша
+        vector<shared_ptr<Point>> _pathMapSet = FindPath(_door, finish, m);
+        //если путь есть - return путь
+        if(!_pathMapSet.empty()){
+            doors.erase(_door);
+            visited_doors.insert(_door);
+            keys.erase(_key);
+            visited_keys.insert(_key);
+            
+            //вернуть объединенный путь
+            _pathMapSet.insert(_pathMapSet.end(), _pathToDoor.begin(), _pathToDoor.end());
+            _pathMapSet.insert(_pathMapSet.end(), _pathToKey.begin(), _pathToKey.end());
+            return _pathMapSet;
+        }
+    
+        //если пути нет, удалить дверь, continue
+        doors.erase(_door);
+    }
+    return pathMapset; //вернуть пустое множество, означает, что пути нет
 }
 
 
