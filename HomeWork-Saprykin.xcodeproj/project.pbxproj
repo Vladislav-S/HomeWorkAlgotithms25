@@ -31,7 +31,6 @@
 		F568E0371FCAF6C500E5E7BB /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
 		F568E0381FCAF70E00E5E7BB /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
 		F568E0391FCAF74100E5E7BB /* map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = map.cpp; sourceTree = "<group>"; };
-		F568E03B1FCAF83600E5E7BB /* map.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = map.txt; sourceTree = "<group>"; };
 		F568E03C1FCB2E0100E5E7BB /* AStar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AStar.cpp; sourceTree = "<group>"; };
 		F568E03D1FCB2E0100E5E7BB /* AStar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AStar.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +51,6 @@
 			children = (
 				F568E02D1FCAF5F500E5E7BB /* HomeWork-Saprykin */,
 				F568E02C1FCAF5F500E5E7BB /* Products */,
-				F568E03B1FCAF83600E5E7BB /* map.txt */,
 			);
 			sourceTree = "<group>";
 		};

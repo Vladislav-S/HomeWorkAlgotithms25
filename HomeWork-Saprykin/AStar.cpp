@@ -125,7 +125,7 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
                 //если не использованный и не посещенный
                 if(!isPointerInSet(Y, keys) && !isPointerInSet(Y, visited_keys)){
                     keys.insert(Y);
-                }
+                }//
             }
             //вычисляем g(x) для обрабатываемого соседа
             double tentative_g_score = X.get()->g + distance(X, Y);
