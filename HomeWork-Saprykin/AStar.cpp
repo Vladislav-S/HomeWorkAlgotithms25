@@ -114,13 +114,11 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
             }
             //if y is door or key
             if(m.isDoor(Y)){
-                if(isPointerInSet(Y, visited_doors)){
-                    continue;
-                }
-                if(!isPointerInSet(Y, doors)){
+
+                if(!isPointerInSet(Y, doors) && !isPointerInSet(Y, visited_doors)){
                     doors.insert(Y);
                 }
-                if(Y != finish){
+                if(Y != finish && !isPointerInSet(Y, visited_doors)){ //я что-то сделал и оно заработало
                     continue; //если идем от ключа до двери, дверь как финиш
                 }
             }else if(m.isKey(Y)){
@@ -169,12 +167,16 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
         
         //проложить путь от старта до ключа
         vector<shared_ptr<Point>> _pathToKey = FindPath(start, _key, m);
+        keys.erase(_key);
+        visited_keys.insert(_key);
         //если нет пути, удалить ключ, continue //нет необходимости //notodo
         if(_pathToKey.empty()){
             //nothing
         }
         //проложить путь от ключа до двери
         vector<shared_ptr<Point>> _pathToDoor = FindPath(_key, _door, m);
+        doors.erase(_door);
+        visited_doors.insert(_door);
         //если нет пути, удалить ключ, continue //notodo
         if(_pathToDoor.empty()){
             //nothing
@@ -186,10 +188,8 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
         vector<shared_ptr<Point>> _pathMapSet = FindPath(_door, finish, m);
         //если путь есть - return путь
         if(!_pathMapSet.empty()){
-            doors.erase(_door);
-            visited_doors.insert(_door);
-            keys.erase(_key);
-            visited_keys.insert(_key);
+            
+
             
             //вернуть объединенный путь
             _pathMapSet.insert(_pathMapSet.end(), _pathToDoor.begin(), _pathToDoor.end());
