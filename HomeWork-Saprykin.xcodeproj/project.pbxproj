@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F51B04131FD1A38E00321742 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		F568E02B1FCAF5F500E5E7BB /* HomeWork-Saprykin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HomeWork-Saprykin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F568E02E1FCAF5F500E5E7BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F568E0361FCAF68A00E5E7BB /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 				F568E02E1FCAF5F500E5E7BB /* main.cpp */,
 				F568E0391FCAF74100E5E7BB /* map.cpp */,
 				F568E03C1FCB2E0100E5E7BB /* AStar.cpp */,
+				F51B04131FD1A38E00321742 /* CMakeLists.txt */,
 			);
 			path = "HomeWork-Saprykin";
 			sourceTree = "<group>";
@@ -256,6 +258,7 @@
 		F568E0331FCAF5F500E5E7BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
@@ -267,6 +270,7 @@
 		F568E0341FCAF5F500E5E7BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
