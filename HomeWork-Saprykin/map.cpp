@@ -118,7 +118,6 @@ void Map::parse_file(char * c){
             }
             
         }
-        //m.print(); //todo: должно быть выключено в релизе
         fstr.close();
     }
 }
