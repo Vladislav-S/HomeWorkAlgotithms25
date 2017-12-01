@@ -11,14 +11,12 @@
 
 #include "base.h"
 #include "matrix.h"
-//#include "graph.h"
 using namespace std;
 using Cords = pair<int, int>;
-using bAndCords = pair<bool, vector<Cords>>;
-using dataAndCords = pair<vector<int>, vector<Cords>>; //(int)canGoBack, doors, keys
+
 struct Point {
-    int m;
-    int n;
+    int m; //координата по высоте
+    int n; //координата по ширине
     double g; //стоимость пути от начальной вершины
     double h; //Эвристическая оценка расстояния до цели
     double f;
@@ -41,39 +39,40 @@ struct Point {
         m = p.get()->m; n = p.get()->n;
     }
 };
+
 bool operator==(const shared_ptr<Point> & l, const shared_ptr<Point> & r);
 
-class my_shared_pointer :public shared_ptr<Point>{
-public:
-    my_shared_pointer(){shared_ptr();}
-    my_shared_pointer(Point){shared_ptr(make_shared(Point));}
-};
 class Map{
 private:
     int argc{0};
     char** argv;
-    matrix<char> m; //матрица карты в визуальном представлении
-    matrix<bool> m1; //матрица посещенных участков
-    matrix<dataAndCords> m2; // матрица для хранения посещенных разветвлений
+    matrix<char> m; ///матрица карты
+    
     char symbols[11] = {'\n', ' ', '#', '@', '*', 'u', 'r', 'd', 'l', 'D', 'k'}; //0-dont override 1-space 2-obstacle, 3-hero,
     //4-exit, 5-only up, 6-only right, 7-only down, 8-only left, 9-door, 10-key
-    enum way {up = 0, right = 1, down = 2, left = 3};
     void parse_file(char *);
     bool out_of_range(int _m, int _n);
-    //Graph g;
-    //Cords heroCords;
-public:
-    Map() = default;
-    Map(int argc, char *argv[]);
-    vector<shared_ptr<Point>> Neighbors(shared_ptr<Point> p);
-    void start();
-    void start(int argc, char *argv[]);
-    shared_ptr<Point> whereIsHeroSymbol();
-    shared_ptr<Point> whereIsExitSymbol();
-    bool isDoor(const shared_ptr<Point> & p);
-    bool isKey(const shared_ptr<Point> & p);
 
-    void Print(){m.Print();}
+public:
+    Map() = default; ///стандартный конструктор
+    Map(int argc, char *argv[]); ///конструктор с параметрами
+    vector<shared_ptr<Point>> Neighbors(shared_ptr<Point> p); ///поиск соседей точки \details в 4х направлениях
+    void start(); ///начало парсинга
+    void start(int argc, char *argv[]); ///начало парсинга \details если экземпляр инициализирован без параметров
+    shared_ptr<Point> whereIsHeroSymbol(); ///вернуть указатель на символ героя
+    shared_ptr<Point> whereIsExitSymbol(); ///вернуть указатель на символ выхода
+    bool isDoor(const shared_ptr<Point> & p); ///символ по указателю дверь?
+    bool isKey(const shared_ptr<Point> & p); ///сивол по указателю ключ?
+
+    void Print(){m.Print();} ///печать карты в стандартный поток вывода
     
+};
+
+///класс ошибки
+class my_exception{
+    string what;
+public:
+    my_exception(string _what) : what(_what){;}
+    string What() const {return what;}
 };
 #endif /* map_h */

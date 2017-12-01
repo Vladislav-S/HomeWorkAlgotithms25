@@ -8,14 +8,6 @@
 
 #include "headers/AStar.hpp"
 
-//AS::Point::Point(int _m, int _n){
-//    m = _m; n = _n;
-//}
-//AS::Point::Point(Cords c){
-//    m = c.second; //проверить
-//    n = c.first;
-//}
-
 double AS::AStar::distance(shared_ptr<Point> A, shared_ptr<Point> B){
     return sqrt(pow(B.get()->n-A.get()->n, 2)+pow(B.get()->m-A.get()->m, 2));
 }
@@ -71,8 +63,7 @@ void AS::AStar::Work(Map & m){
     vector<shared_ptr<Point>> path =
     FindPath(m.whereIsHeroSymbol(), m.whereIsExitSymbol(), m);
     if(path.empty()){
-        cout << "no way to exit" << endl;
-        return;
+        throw my_exception("no way to exit");
     }
     PrintPath(path);
 }
@@ -80,7 +71,7 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
     //при углублении, передача start-finish, сохраняет свои направления
     set<shared_ptr<Point>> closedSet;
     set<shared_ptr<Point>> openSet;
-    vector<shared_ptr<Point>> pathMapset; // change to vector
+    vector<shared_ptr<Point>> pathMapset; // change to vector - done
     //тест
     //start.get()->
     shared_ptr<Point> start(make_shared<Point>(_start.get()->m, _start.get()->n));
@@ -150,12 +141,9 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
             }
         }
     }
+    
     //если не обнаружили пути выхода
     //проверить, есть ли двери
-    /*
-     далее в цикле проверить все ключи и все двери, ключ найти ближайший, дверь тоже, если дверь не подойдет, идти к следующей ближайшей двери, если подойдет, добавить ключ-дверь как опорные точки, запомнить путь между ними. While(door is not empty)
-     смотрим кратчайшее расстояние от старта до двери и от двери до финиша
-     */
     while(!doors.empty()){
 
         //найти выгодную дверь
@@ -163,7 +151,7 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
         //найти ближайший ключ
         shared_ptr<Point> _key = find_min_in_set_between2(start, _door, keys);
         //если нет ключей - break
-        if(_key.get() == nullptr) break;
+        if(_key.get() == nullptr) break; //можно проверять в начале цикла
         
         //проложить путь от старта до ключа
         vector<shared_ptr<Point>> _pathToKey = FindPath(start, _key, m);
@@ -181,16 +169,11 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
         if(_pathToDoor.empty()){
             //nothing
         }
-        //если оба пути есть и выгодны, заносим их в массив путей, (проверяем остальные)-todo
-        //TODO
         
         //получить путь от двери до финиша
         vector<shared_ptr<Point>> _pathMapSet = FindPath(_door, finish, m);
         //если путь есть - return путь
         if(!_pathMapSet.empty()){
-            
-
-            
             //вернуть объединенный путь
             _pathMapSet.insert(_pathMapSet.end(), _pathToDoor.begin(), _pathToDoor.end());
             _pathMapSet.insert(_pathMapSet.end(), _pathToKey.begin(), _pathToKey.end());
@@ -198,7 +181,7 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
         }
     
         //если пути нет, удалить дверь, continue
-        doors.erase(_door);
+        //doors.erase(_door); //а оно нам надо? //оставлю пока так
     }
     return pathMapset; //вернуть пустое множество, означает, что пути нет
 }

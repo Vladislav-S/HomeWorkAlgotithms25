@@ -31,9 +31,8 @@ bool Map::out_of_range(int _m, int _n){
 }
 
 vector<shared_ptr<Point>> Map::Neighbors(shared_ptr<Point> p){
-    //добавить на выход за границы
     vector<shared_ptr<Point>> v;
-    Cords base(p.get()->m, p.get()->n); //у меня n*m или наоборот?
+    Cords base(p.get()->m, p.get()->n);
     //че там сверху
     if(!out_of_range(base.first-1, base.second)){
         if(
@@ -69,22 +68,13 @@ vector<shared_ptr<Point>> Map::Neighbors(shared_ptr<Point> p){
     return v;
 }
 void Map::start(){
-    if(argc == 0 || argv == nullptr){ //невозможно
-        throw invalid_argument("error with params in Map(argc, argv)");
-    }
-    
     //Парсим файл в матрицу
-    if((argc == 2 && (argv[1] == "")) || argc == 1){ //todo: сделать проверку нормально
+    if(argc == 1){
         parse_file((char *)"map.txt");
     }
     else{
         parse_file(argv[1]);
     }
-    
-    m1.makeMN(m.h(), m.w());
-    //m1[0][0] = true;
-    //m1.print();
-    
 }
 
 void Map::start(int ac, char * av[]){
@@ -98,7 +88,7 @@ void Map::parse_file(char * c){
     fstream fstr(filename);
     
     if(!fstr.is_open()){
-        cout << "error with opening" << endl;
+        throw my_exception("error with file (no such file in directory)");
     }else{
         char ch2;
         while(!fstr.eof()){
@@ -123,7 +113,7 @@ void Map::parse_file(char * c){
                 m.increase_row();
             }
             else{
-                throw "bad symbol in text file"; //todo : throw ошибку - done
+                throw my_exception("bad symbol in text file"); //todo : throw ошибку - done
                 return;
             }
             
@@ -135,32 +125,31 @@ void Map::parse_file(char * c){
 
 
 
-shared_ptr<Point> Map::whereIsHeroSymbol(){ //где символ героя todo: переделать для любого символа
+shared_ptr<Point> Map::whereIsHeroSymbol(){
     for(int i{0}; i < m.h(); i++){
         for(int j{0}; j < m.w(); j++){
             if(m[i][j] == symbols[3]) return make_shared<Point>(Cords(i, j));
         }
     }
-    throw "no hero symbol found, check your Map";
+    throw my_exception("no hero symbol found, check your Map");
 }
 
-shared_ptr<Point> Map::whereIsExitSymbol(){ //где символ героя todo: переделать для любого символа
+shared_ptr<Point> Map::whereIsExitSymbol(){
     for(int i{0}; i < m.h(); i++){
         for(int j{0}; j < m.w(); j++){
             if(m[i][j] == symbols[4]) return make_shared<Point>(Cords(i, j));
         }
     }
-    throw "no exit symbol found, check your Map";
+    throw my_exception("no exit symbol found, check your Map");
 }
 
 bool Map::isDoor(const shared_ptr<Point> & p){
-    if(out_of_range(p.get()->m, p.get()->n)) throw; //out of range;
+    if(out_of_range(p.get()->m, p.get()->n)) throw my_exception("Point is out of range");
     if(m[p.get()->m][p.get()->n] == symbols[9]) return true;
     return false;
 }
 bool Map::isKey(const shared_ptr<Point> & p){
-    if(out_of_range(p.get()->m, p.get()->n)) throw; //out of range;
+    if(out_of_range(p.get()->m, p.get()->n)) throw my_exception("Point is out of range");
     if(m[p.get()->m][p.get()->n] == symbols[10]) return true;
     return false;
 }
-//TODO: сжедать интерфейс для работы с матрицей
