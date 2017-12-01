@@ -9,10 +9,8 @@
 #ifndef AStar_hpp
 #define AStar_hpp
 
-//#include "base.h"
 #include "map.h"
-//using namespace std;
-//using Cords = pair<int, int>;
+
 namespace AS {
 
     class AStar{
