@@ -17,14 +17,10 @@ Map::Map(int ac, char * av[]){
     argv = av;
 }
 
-bool Map::out_of_range(int _m, int _n){
-    if(_m >= m.h()){
+bool Map::out_of_range(size_t _m, size_t _n){
+    if(_m >= M.h()){
         return true;
-    }else if (_m < 0){
-        return true;
-    }else if (_n >= m.w()){
-        return true;
-    }else if (_n < 0){
+    }else if (_n >= M.w()){
         return true;
     }
     return false;
@@ -36,32 +32,32 @@ vector<shared_ptr<Point>> Map::Neighbors(shared_ptr<Point> p){
     //че там сверху
     if(!out_of_range(base.first-1, base.second)){
         if(
-           m[base.first-1][base.second] != symbols[7] && //d
-           m[base.first-1][base.second] != symbols[2]){ //#
+           M[base.first-1][base.second][0] != symbols[7] && //d
+           M[base.first-1][base.second][0] != symbols[2]){ //#
             v.push_back(make_shared<Point>(Cords(base.first-1, base.second)));
         }
     }
     
     //че там снизу
     if(!out_of_range(base.first+1, base.second)){
-        if(m[base.first+1][base.second] != symbols[5] && //u
-           m[base.first+1][base.second] != symbols[2]){
+        if(M[base.first+1][base.second][0] != symbols[5] && //u
+           M[base.first+1][base.second][0] != symbols[2]){
             v.push_back(make_shared<Point>(Cords(base.first+1, base.second)));
         }
     }
 
     //че там слева
     if(!out_of_range(base.first, base.second-1)){
-        if(m[base.first][base.second-1] != symbols[6] &&
-           m[base.first][base.second-1] != symbols[2]){
+        if(M[base.first][base.second-1][0] != symbols[6] &&
+           M[base.first][base.second-1][0] != symbols[2]){
             v.push_back(make_shared<Point>(Cords(base.first, base.second-1)));
         }
     }
 
     //че там справа
     if(!out_of_range(base.first, base.second+1)){
-        if(m[base.first][base.second+1] != symbols[8] &&
-           m[base.first][base.second+1] != symbols[2]){
+        if(M[base.first][base.second+1][0] != symbols[8] &&
+           M[base.first][base.second+1][0] != symbols[2]){
             v.push_back(make_shared<Point>(Cords(base.first, base.second+1)));
         }
     }
@@ -69,6 +65,8 @@ vector<shared_ptr<Point>> Map::Neighbors(shared_ptr<Point> p){
 }
 void Map::start(){
     //Парсим файл в матрицу
+    //cout << symbols[1];
+
     if(argc == 1){
         parse_file((char *)"map.txt");
     }
@@ -91,26 +89,28 @@ void Map::parse_file(char * c){
         throw my_exception("error with file (no such file in directory)");
     }else{
         char ch2;
+        string temp;
         while(!fstr.eof()){
             
             fstr.get(ch2);
-            if(fstr.eof()) break; //выскакивал какой-то ссаный символ в конце, починил d
-            
-            // 4 - '*' 3 - '@' 2 - '#' 1 - ' '
-            if(ch2 == symbols[1]
-               || ch2 == symbols[2]
-               || ch2 == symbols[3]
-               || ch2 == symbols[4]
-               || ch2 == symbols[5]
-               || ch2 == symbols[6]
-               || ch2 == symbols[7]
-               || ch2 == symbols[8]
-               || ch2 == symbols[9]
-               || ch2 == symbols[10]){
-                m.push_back(ch2);
+            if(fstr.eof()){
+                M.push_back(temp);
+                break;
             }
-            else if(ch2 == symbols[0]){ // 0 - '\n'
-                m.increase_row();
+            
+            
+            // 4 - '*' 3 - '@' 2 - '#' 1 - '
+            if(ch2 == symbols[0]){ // 0 - '\n'
+                M.push_back(temp);
+
+                M.increase_row();
+                temp = "";
+            }else if(ch2 == ','){
+                M.push_back(temp);
+                temp = "";
+            }
+            else if(strchr(symbols, ch2) != nullptr){
+                temp += string(sizeof(char), ch2);
             }
             else{
                 throw my_exception("bad symbol in text file"); //todo : throw ошибку - done
@@ -119,24 +119,28 @@ void Map::parse_file(char * c){
             
         }
         fstr.close();
+        //cout << M[1][1][0] << endl;
     }
 }
 
 
 
 shared_ptr<Point> Map::whereIsHeroSymbol(){
-    for(int i{0}; i < m.h(); i++){
-        for(int j{0}; j < m.w(); j++){
-            if(m[i][j] == symbols[3]) return make_shared<Point>(Cords(i, j));
+    for(int i{0}; i < M.h(); i++){
+        for(int j{0}; j < M.w(); j++){
+            if(M[i][j][0] == symbols[3]) return make_shared<Point>(Cords(i, j));
+            //cout << "found " << i << " " << j << endl; //DEBUG
+
         }
     }
     throw my_exception("no hero symbol found, check your Map");
 }
 
 shared_ptr<Point> Map::whereIsExitSymbol(){
-    for(int i{0}; i < m.h(); i++){
-        for(int j{0}; j < m.w(); j++){
-            if(m[i][j] == symbols[4]) return make_shared<Point>(Cords(i, j));
+    for(int i{0}; i < M.h(); i++){
+        for(int j{0}; j < M.w(); j++){
+            if(M[i][j][0] == symbols[4]) return make_shared<Point>(Cords(i, j));
+            //cout << "found " << i << " " << j << endl; //DEBUG
         }
     }
     throw my_exception("no exit symbol found, check your Map");
@@ -144,11 +148,11 @@ shared_ptr<Point> Map::whereIsExitSymbol(){
 
 bool Map::isDoor(const shared_ptr<Point> & p){
     if(out_of_range(p.get()->m, p.get()->n)) throw my_exception("Point is out of range");
-    if(m[p.get()->m][p.get()->n] == symbols[9]) return true;
+    if(M[p.get()->m][p.get()->n][0] == symbols[9]) return true;
     return false;
 }
 bool Map::isKey(const shared_ptr<Point> & p){
     if(out_of_range(p.get()->m, p.get()->n)) throw my_exception("Point is out of range");
-    if(m[p.get()->m][p.get()->n] == symbols[10]) return true;
+    if(M[p.get()->m][p.get()->n][0] == symbols[10]) return true;
     return false;
 }

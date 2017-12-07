@@ -93,12 +93,7 @@ template <typename A>
 void matrix<A>::print(){
     for(auto a : v){
         for(auto b : *a.get()){
-            if(typeid(A) == typeid(wchar_t)){
-                wcout << b << " ";
-            }
-            else{
-                cout << b << " ";
-            }
+            cout << b << " ";
         }
         cout << endl;
     }

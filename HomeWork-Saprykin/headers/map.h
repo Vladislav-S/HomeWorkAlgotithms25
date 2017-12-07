@@ -47,11 +47,11 @@ private:
     int argc{0};
     char** argv;
     matrix<char> m; ///матрица карты
-    
-    char symbols[11] = {'\n', ' ', '#', '@', '*', 'u', 'r', 'd', 'l', 'D', 'k'}; //0-dont override 1-space 2-obstacle, 3-hero,
+    matrix<string> M;
+    char symbols[22] = {"\n #@*urdlDk0123456789"}; //0-dont override 1-space 2-obstacle, 3-hero,
     //4-exit, 5-only up, 6-only right, 7-only down, 8-only left, 9-door, 10-key
     void parse_file(char *);
-    bool out_of_range(int _m, int _n);
+    bool out_of_range(size_t _m, size_t _n);
 
 public:
     Map() = default; ///стандартный конструктор
@@ -64,7 +64,7 @@ public:
     bool isDoor(const shared_ptr<Point> & p); ///символ по указателю дверь?
     bool isKey(const shared_ptr<Point> & p); ///сивол по указателю ключ?
 
-    void Print(){m.Print();} ///печать карты в стандартный поток вывода
+    void Print(){M.Print();} ///печать карты в стандартный поток вывода
     
 };
 
