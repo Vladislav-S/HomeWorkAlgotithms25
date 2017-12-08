@@ -29,7 +29,7 @@ public:
     void push_back(A val); ///добавить элемент в конец последней строки
     void push_back(shared_ptr<vector<A>>); ///добавить целую строку
     void Print(); ///печать матрицы
-    vector<A> & operator[] (int _m) const; ///получение элемента по индексу
+    vector<A> & operator[] (size_t _m) const; ///получение элемента по индексу
     size_t h() const; ///высота матрицы (m)
     size_t w() const; ///ширина матрицы (n)
 };
@@ -104,7 +104,7 @@ void matrix<A>::Print(){
 }
 
 template <typename A>
-vector<A> & matrix<A>::operator[] (int _m) const{
+vector<A> & matrix<A>::operator[] (size_t _m) const{
     if(_m < 0 || _m > v.size()-1) throw out_of_range("wrong matrix [index]");
     return *v.at(_m).get();
 }

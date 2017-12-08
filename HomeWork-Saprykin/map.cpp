@@ -156,3 +156,41 @@ bool Map::isKey(const shared_ptr<Point> & p){
     if(M[p.get()->m][p.get()->n][0] == symbols[10]) return true;
     return false;
 }
+
+//DANGER - неизвестное поведение объектов указателя
+shared_ptr<Point> Map::whereIsSymbol(const shared_ptr<Point> & p){
+    auto pos = M[p.get()->m][p.get()->n].find("D");
+    string dIndex = M[p.get()->m][p.get()->n].substr(pos);
+    //string dIndex = M[p.get()->m][p.get()->n].substr(1, M[p.get()->m][p.get->n].size()-2);
+    for(auto i{0}; i < M.h(); i++){
+        for(auto j{0}; j < M.w(); j++){
+            if(M[i][j].substr(M[i][j].find("k")) == dIndex){
+                return shared_ptr<Point>(make_shared<Point>(i, j));
+            }
+        }
+    }
+    
+    return shared_ptr<Point>();
+}
+
+vector<shared_ptr<Point>> Map::whereIsSymbols(const shared_ptr<Point> & p){
+    vector<shared_ptr<Point>> v;
+    auto pos = M[p.get()->m][p.get()->n].find("D");
+    string dIndex = M[p.get()->m][p.get()->n].substr(pos+1);
+    //string dIndex = M[p.get()->m][p.get()->n].substr(1, M[p.get()->m][p.get->n].size()-2);
+    for(auto i{0}; i < M.h(); i++){
+        for(auto j{0}; j < M.w(); j++){
+            if(M[i][j].substr(M[i][j].find("k")+1) == dIndex){
+                v.push_back(make_shared<Point>(i, j));
+            }
+        }
+    }
+    return v;
+}
+
+bool Map::isKeyForDoor(const shared_ptr<Point> & k, const shared_ptr<Point> & d){
+    Point key(k.get()->m, k.get()->n);
+    Point door(d.get()->m, d.get()->n);
+    if(M[key.m][key.n].substr(M[key.m][key.n].find("k")+1) == M[door.m][door.n].substr(M[door.m][door.n].find("D")+1)) return true;
+    return false;
+}

@@ -15,13 +15,14 @@ using namespace std;
 using Cords = pair<int, int>;
 
 struct Point {
-    int m; //координата по высоте
-    int n; //координата по ширине
+    size_t m; //координата по высоте
+    size_t n; //координата по ширине
     double g; //стоимость пути от начальной вершины
     double h; //Эвристическая оценка расстояния до цели
     double f;
     shared_ptr<Point> came_from;
-    Point(int _m, int _n){m = _m; n = _n;}
+    //Point(int _m, int _n){m = _m; n = _n;}
+    Point(size_t _m, size_t _n):m(_m),n(_n){;}
     Point(Cords c){
         m = c.first; //проверить
         n = c.second;
@@ -63,8 +64,10 @@ public:
     shared_ptr<Point> whereIsExitSymbol(); ///вернуть указатель на символ выхода
     bool isDoor(const shared_ptr<Point> & p); ///символ по указателю дверь?
     bool isKey(const shared_ptr<Point> & p); ///сивол по указателю ключ?
-
+    shared_ptr<Point> whereIsSymbol(const shared_ptr<Point> & p); ///найти координаты символа
+    vector<shared_ptr<Point>> whereIsSymbols(const shared_ptr<Point> & p);
     void Print(){M.Print();} ///печать карты в стандартный поток вывода
+    bool isKeyForDoor(const shared_ptr<Point> & k, const shared_ptr<Point> & d);
     
 };
 
