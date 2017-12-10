@@ -26,7 +26,7 @@ bool Map::out_of_range(size_t _m, size_t _n){
     return false;
 }
 
-vector<shared_ptr<Point>> Map::Neighbors(shared_ptr<Point> p){
+vector<shared_ptr<Point>> Map::Neighbors(const shared_ptr<Point> &p){
     vector<shared_ptr<Point>> v;
     Cords base(p.get()->m, p.get()->n);
     //че там сверху

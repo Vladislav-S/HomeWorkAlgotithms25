@@ -30,7 +30,7 @@ struct Point {
     Point(const Point & p){
         m = p.m; n=p.n; g=p.g; h=p.h; f=p.f;
     }
-    Point(const shared_ptr<Point> p){
+    Point(const shared_ptr<Point>  & p){
         m=p.get()->m; n=p.get()->n; g=p.get()->g; h=p.get()->h; f=p.get()->f;
     }
     bool operator== (const Point & b){
@@ -57,7 +57,7 @@ private:
 public:
     Map() = default; ///стандартный конструктор
     Map(int argc, char *argv[]); ///конструктор с параметрами
-    vector<shared_ptr<Point>> Neighbors(shared_ptr<Point> p); ///поиск соседей точки \details в 4х направлениях
+    vector<shared_ptr<Point>> Neighbors(const shared_ptr<Point> &p); ///поиск соседей точки \details в 4х направлениях
     void start(); ///начало парсинга
     void start(int argc, char *argv[]); ///начало парсинга \details если экземпляр инициализирован без параметров
     shared_ptr<Point> whereIsHeroSymbol(); ///вернуть указатель на символ героя

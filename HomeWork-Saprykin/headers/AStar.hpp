@@ -19,8 +19,8 @@ namespace AS {
         set<shared_ptr<Point>> visited_doors; ///посещенные двери
         set<shared_ptr<Point>> visited_keys; ///посещенные ключи
         shared_ptr<Point> find_min_f(const set<shared_ptr<Point>> &); ///поиск минимальной f
-        shared_ptr<Point> find_min_in_set_between2(const shared_ptr<Point> & a, const shared_ptr<Point> & b, set<shared_ptr<Point>> s); ///поиск минимального расстояния между тремя точками
-        double distance(shared_ptr<Point> A, shared_ptr<Point> B); ///расстояние между точками
+        //гshared_ptr<Point> find_min_in_set_between2(const shared_ptr<Point> & a, const shared_ptr<Point> & b, const set<shared_ptr<Point>>& s); ///поиск минимального расстояния между тремя точками
+        double distance(const shared_ptr<Point> &A,const shared_ptr<Point> & B); ///расстояние между точками
         vector<shared_ptr<Point>> reconstruct_Path(const shared_ptr<Point> &start, const shared_ptr<Point> &finish); ///реконструирование пути
         void PrintPath(const vector<shared_ptr<Point>> & _v); ///печать пути
         bool isPointerInSet(const shared_ptr<Point> & p, set<shared_ptr<Point>>  s); ///есть ли Point в множестве
