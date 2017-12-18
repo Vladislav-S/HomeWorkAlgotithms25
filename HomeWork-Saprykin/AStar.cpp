@@ -25,8 +25,6 @@ shared_ptr<Point> AS::AStar::find_min_f(const set<shared_ptr<Point>> & s){
 
 
 vector<shared_ptr<Point>> AS::AStar::reconstruct_Path(const shared_ptr<Point> &start, const shared_ptr<Point> &finish){
-    //IMPORTANT
-    //в этом месте, последнее появление этих объектов в алгоритме поиска, далее они должны быть впихнуты только в путь
     vector<shared_ptr<Point>> v;
     shared_ptr<Point> current = finish;
     while(current.get()->came_from != nullptr){

@@ -14,8 +14,7 @@
 namespace AS {
 
     class AStar{
-        //set<shared_ptr<Point>> doors; ///Обнаруженные двери
-        //set<shared_ptr<Point>> keys; ///обнаруженные ключи
+
         set<shared_ptr<Point>> visited_doors; ///посещенные двери
         set<shared_ptr<Point>> visited_keys; ///посещенные ключи
         shared_ptr<Point> find_min_f(const set<shared_ptr<Point>> &); ///поиск минимальной f
@@ -24,13 +23,13 @@ namespace AS {
         vector<shared_ptr<Point>> reconstruct_Path(const shared_ptr<Point> &start, const shared_ptr<Point> &finish); ///реконструирование пути
         void PrintPath(const vector<shared_ptr<Point>> & _v); ///печать пути
         bool isPointerInSet(const shared_ptr<Point> & p, set<shared_ptr<Point>>  s); ///есть ли Point в множестве
-        bool isPointerInVect(const shared_ptr<Point> & p, const vector<shared_ptr<Point>> & v);
+        bool isPointerInVect(const shared_ptr<Point> & p, const vector<shared_ptr<Point>> & v); ///есть ли Pointer в векторе
         vector<shared_ptr<Point>> FindPath(shared_ptr<Point> start, shared_ptr<Point> finish , Map &, bool blocked = false); ///функция поиска пути
         vector<shared_ptr<Point>> FindPaths(shared_ptr<Point> start, shared_ptr<Point> finish , Map &); ///обертка для поиска всех возможных путей
         
-        vector<shared_ptr<Point>> DoorsInPath(const vector<shared_ptr<Point>> & path, Map & m);
-        vector<shared_ptr<Point>> FindKeysForDoors(const vector<shared_ptr<Point>> & doors, const shared_ptr<Point> & start, Map & m);
-        vector<shared_ptr<Point>> sortKeys(const set<shared_ptr<Point>> & keys, const shared_ptr<Point> & start);
+        vector<shared_ptr<Point>> DoorsInPath(const vector<shared_ptr<Point>> & path, Map & m); ///поиск дверей на пути
+        vector<shared_ptr<Point>> FindKeysForDoors(const vector<shared_ptr<Point>> & doors, const shared_ptr<Point> & start, Map & m); ///ищем подходящие двери для ключей
+        vector<shared_ptr<Point>> sortKeys(const set<shared_ptr<Point>> & keys, const shared_ptr<Point> & start); ///сортировка ключей поп расстоянию от старта
     public:
         AStar() = default; ///конструктор по умолчанию
         void Work(Map &); ///запуск алгоритма поиска

@@ -13,9 +13,9 @@ using namespace std;
 int main(int argc, char * argv[]) {
     try {
         cout << argv[0] << endl;
-        Map m(argc, argv);
+        Map m;
         AS::AStar A;
-        m.start();
+        m.start(argc, argv);
         m.Print();
         A.Work(m);
     } catch (const my_exception & ex) {

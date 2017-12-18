@@ -12,10 +12,10 @@ bool operator==(const shared_ptr<Point> & l, const shared_ptr<Point> & r){
     return l.get()->m == r.get()->m && l.get()->n == r.get()->n;
 }
 
-Map::Map(int ac, char * av[]){
-    argc = ac;
-    argv = av;
-}
+//Map::Map(int ac, char * av[]){
+//    argc = ac;
+//    argv = av;
+//}
 
 bool Map::out_of_range(size_t _m, size_t _n){
     if(_m >= M.h()){
@@ -63,22 +63,25 @@ vector<shared_ptr<Point>> Map::Neighbors(const shared_ptr<Point> &p){
     }
     return v;
 }
-void Map::start(){
-    //Парсим файл в матрицу
-    //cout << symbols[1];
+//void Map::start(){
+//    //Парсим файл в матрицу
+//    //cout << symbols[1];
+//
+//    if(argc == 1){
+//        parse_file((char *)"map.txt");
+//    }
+//    else{
+//        parse_file(argv[1]);
+//    }
+//}
 
-    if(argc == 1){
+void Map::start(int ac, char * av[]){
+    if(ac == 1){
         parse_file((char *)"map.txt");
     }
     else{
-        parse_file(argv[1]);
+        parse_file(av[1]);
     }
-}
-
-void Map::start(int ac, char * av[]){
-    argc = ac;
-    argv = av;
-    start();
 }
 
 void Map::parse_file(char * c){

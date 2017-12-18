@@ -45,9 +45,6 @@ bool operator==(const shared_ptr<Point> & l, const shared_ptr<Point> & r);
 
 class Map{
 private:
-    int argc{0};
-    char** argv;
-    matrix<char> m; ///матрица карты
     matrix<string> M;
     char symbols[22] = {"\n #@*urdlDk0123456789"}; //0-dont override 1-space 2-obstacle, 3-hero,
     //4-exit, 5-only up, 6-only right, 7-only down, 8-only left, 9-door, 10-key
@@ -56,10 +53,8 @@ private:
 
 public:
     Map() = default; ///стандартный конструктор
-    Map(int argc, char *argv[]); ///конструктор с параметрами
     vector<shared_ptr<Point>> Neighbors(const shared_ptr<Point> &p); ///поиск соседей точки \details в 4х направлениях
-    void start(); ///начало парсинга
-    void start(int argc, char *argv[]); ///начало парсинга \details если экземпляр инициализирован без параметров
+    void start(int argc, char *argv[]); ///начало парсинга
     shared_ptr<Point> whereIsHeroSymbol(); ///вернуть указатель на символ героя
     shared_ptr<Point> whereIsExitSymbol(); ///вернуть указатель на символ выхода
     bool isDoor(const shared_ptr<Point> & p); ///символ по указателю дверь?
