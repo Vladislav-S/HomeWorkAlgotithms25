@@ -314,11 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.559679"
+            timestampString = "535308998.07247"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.561539"
+            timestampString = "535308998.074723"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
             landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.563106"
+            timestampString = "535308998.076455"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "AS::AStar::FindKeysForDoors(const vector&lt;shared_ptr&lt;Point&gt;&gt; &amp; doors, const shared_ptr&lt;Point&gt; &amp; start, Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -362,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.564812"
+            timestampString = "535308998.078271"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "AS::AStar::FindKeysForDoors(const vector&lt;shared_ptr&lt;Point&gt;&gt; &amp; doors, const shared_ptr&lt;Point&gt; &amp; start, Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -538,11 +538,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.566517"
+            timestampString = "535308998.080101"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "AS::AStar::isPointerInSet(const shared_ptr&lt;Point&gt; &amp; p, set&lt;shared_ptr&lt;Point&gt;&gt; s)"
             landmarkType = "7">
          </BreakpointContent>
@@ -554,11 +554,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.568047"
+            timestampString = "535308998.081837"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "AS::AStar::isPointerInSet(const shared_ptr&lt;Point&gt; &amp; p, set&lt;shared_ptr&lt;Point&gt;&gt; s)"
             landmarkType = "7">
          </BreakpointContent>
@@ -570,11 +570,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.56964"
+            timestampString = "535308998.083555"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "AS::AStar::isPointerInSet(const shared_ptr&lt;Point&gt; &amp; p, set&lt;shared_ptr&lt;Point&gt;&gt; s)"
             landmarkType = "7">
          </BreakpointContent>
@@ -586,11 +586,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.571174"
+            timestampString = "535308998.085234"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "AS::AStar::isPointerInSet(const shared_ptr&lt;Point&gt; &amp; p, set&lt;shared_ptr&lt;Point&gt;&gt; s)"
             landmarkType = "7">
          </BreakpointContent>
@@ -602,11 +602,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.57266"
+            timestampString = "535308998.086924"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "AS::AStar::isPointerInSet(const shared_ptr&lt;Point&gt; &amp; p, set&lt;shared_ptr&lt;Point&gt;&gt; s)"
             landmarkType = "7">
          </BreakpointContent>
@@ -618,12 +618,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.574143"
+            timestampString = "535308998.088687"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -634,11 +634,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.575619"
+            timestampString = "535308998.090463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "AS::AStar::FindKeysForDoors(const vector&lt;shared_ptr&lt;Point&gt;&gt; &amp; doors, const shared_ptr&lt;Point&gt; &amp; start, Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -650,11 +650,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.577111"
+            timestampString = "535308998.092513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "AS::AStar::FindKeysForDoors(const vector&lt;shared_ptr&lt;Point&gt;&gt; &amp; doors, const shared_ptr&lt;Point&gt; &amp; start, Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -666,7 +666,39 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.578561"
+            timestampString = "535308998.094233"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "AS::AStar::FindKeysForDoors(const vector&lt;shared_ptr&lt;Point&gt;&gt; &amp; doors, const shared_ptr&lt;Point&gt; &amp; start, Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.095931"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "AS::AStar::FindKeysForDoors(const vector&lt;shared_ptr&lt;Point&gt;&gt; &amp; doors, const shared_ptr&lt;Point&gt; &amp; start, Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.097585"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "122"
@@ -682,43 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.580048"
+            timestampString = "535308998.099231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "129"
             endingLineNumber = "129"
-            landmarkName = "AS::AStar::FindKeysForDoors(const vector&lt;shared_ptr&lt;Point&gt;&gt; &amp; doors, const shared_ptr&lt;Point&gt; &amp; start, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.581708"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "AS::AStar::FindKeysForDoors(const vector&lt;shared_ptr&lt;Point&gt;&gt; &amp; doors, const shared_ptr&lt;Point&gt; &amp; start, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.583236"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
             landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
             landmarkType = "7">
          </BreakpointContent>
@@ -730,11 +730,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.584695"
+            timestampString = "535308998.100876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
             landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
             landmarkType = "7">
          </BreakpointContent>
@@ -746,11 +746,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.586133"
+            timestampString = "535308998.102539"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
             landmarkType = "7">
          </BreakpointContent>
@@ -762,11 +762,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.587575"
+            timestampString = "535308998.104148"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
             landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -778,11 +778,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.589011"
+            timestampString = "535308998.10577"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
             landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -794,11 +794,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.590444"
+            timestampString = "535308998.107479"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -810,1063 +810,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.591887"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.593318"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.594759"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "205"
-            endingLineNumber = "205"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.596244"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "207"
-            endingLineNumber = "207"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.597866"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.59947"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "210"
-            endingLineNumber = "210"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.601053"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.60281"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "212"
-            endingLineNumber = "212"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.604652"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "215"
-            endingLineNumber = "215"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.606237"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "217"
-            endingLineNumber = "217"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.6077"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "226"
-            endingLineNumber = "226"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.609149"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "228"
-            endingLineNumber = "228"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.610596"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "229"
-            endingLineNumber = "229"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.612086"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.61358"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
-            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.615663"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.617681"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
-            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.619219"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
-            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.620694"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
-            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.622166"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.623645"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.625125"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "238"
-            endingLineNumber = "238"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.626597"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "240"
-            endingLineNumber = "240"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.628055"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "244"
-            endingLineNumber = "244"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.629533"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "245"
-            endingLineNumber = "245"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.631189"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "247"
-            endingLineNumber = "247"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.633048"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "248"
-            endingLineNumber = "248"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.635575"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.637711"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "251"
-            endingLineNumber = "251"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.639613"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "252"
-            endingLineNumber = "252"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.641435"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "253"
-            endingLineNumber = "253"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.643149"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "255"
-            endingLineNumber = "255"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.644757"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "258"
-            endingLineNumber = "258"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.646275"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "260"
-            endingLineNumber = "260"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.647893"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "261"
-            endingLineNumber = "261"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.649468"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.650969"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "262"
-            endingLineNumber = "262"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.652496"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "267"
-            endingLineNumber = "267"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.654074"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "269"
-            endingLineNumber = "269"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.655607"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "268"
-            endingLineNumber = "268"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.657254"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "270"
-            endingLineNumber = "270"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.659086"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "272"
-            endingLineNumber = "272"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.660593"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "273"
-            endingLineNumber = "273"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.662082"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "291"
-            endingLineNumber = "291"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.663587"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "292"
-            endingLineNumber = "292"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.665238"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "293"
-            endingLineNumber = "293"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.66673"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "294"
-            endingLineNumber = "294"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.668174"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "295"
-            endingLineNumber = "295"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.669611"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "277"
-            endingLineNumber = "277"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.671053"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "278"
-            endingLineNumber = "278"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.672606"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "281"
-            endingLineNumber = "281"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.674065"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "282"
-            endingLineNumber = "282"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.675505"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "283"
-            endingLineNumber = "283"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.676948"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "285"
-            endingLineNumber = "285"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.67839"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "286"
-            endingLineNumber = "286"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.679906"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "287"
-            endingLineNumber = "287"
-            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.681577"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.683066"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.684514"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.685962"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.687402"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.688843"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.690296"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.691736"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "188"
-            endingLineNumber = "188"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.693177"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "189"
-            endingLineNumber = "189"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.694617"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.6961"
+            timestampString = "535308998.109227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "186"
@@ -1882,11 +826,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.697647"
+            timestampString = "535308998.110905"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
             landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1898,39 +842,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.69927"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.700716"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.702168"
+            timestampString = "535308998.112508"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "194"
@@ -1946,7 +858,1047 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.703615"
+            timestampString = "535308998.114108"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.115814"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.117499"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.119119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.120723"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.122351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.123999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.125817"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.12743"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.129034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.130639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.132245"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.133945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.135541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.137152"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.138749"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.140372"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.142436"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "AS::AStar::sortKeys(const set&lt;shared_ptr&lt;Point&gt;&gt; &amp; keys, const shared_ptr&lt;Point&gt; &amp; start)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.145229"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.147567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.149688"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.151677"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.153523"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.155213"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.156944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.159281"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.160985"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.162605"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.164191"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.1659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.16747"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.169039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.170606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.172211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.174578"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.176746"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.178538"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.180116"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.18181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.183407"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.185013"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.186661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.188479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.190251"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.19241"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.194492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.196678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.198736"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.200611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.202351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.203954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.205752"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.208289"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.210246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.211942"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.213677"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.21529"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.216894"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.218495"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.220094"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "AS::AStar::reconstruct_Path(const shared_ptr&lt;Point&gt; &amp;start, const shared_ptr&lt;Point&gt; &amp;finish)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.221758"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.223383"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.225116"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.226813"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.228417"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.23006"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "182"
@@ -1962,23 +1914,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.705061"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
-            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.7065"
+            timestampString = "535308998.231656"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "183"
@@ -1994,11 +1930,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.707937"
+            timestampString = "535308998.233255"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
             landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2010,11 +1946,153 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HomeWork-Saprykin/AStar.cpp"
-            timestampString = "534619586.709385"
+            timestampString = "535308998.234858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.236465"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.238162"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.23979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.241553"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "214"
             endingLineNumber = "214"
+            landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AS::AStar::FindPaths(std::__1::shared_ptr&lt;Point&gt;, std::__1::shared_ptr&lt;Point&gt;, Map&amp;)"
+                  moduleName = "HomeWork-Saprykin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Google%20%D0%94%D0%B8%D1%81%D0%BA/Documents/%D1%83%D1%87%D0%B5%D0%B1%D0%B0/5%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80/Alg/HomeWork-Saprykin/HomeWork-Saprykin/AStar.cpp"
+                  timestampString = "535307196.38792"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "229"
+                  endingLineNumber = "229"
+                  offsetFromSymbolStart = "2671">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AS::AStar::FindPaths(std::__1::shared_ptr&lt;Point&gt;, std::__1::shared_ptr&lt;Point&gt;, Map&amp;)"
+                  moduleName = "HomeWork-Saprykin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Google%20%D0%94%D0%B8%D1%81%D0%BA/Documents/%D1%83%D1%87%D0%B5%D0%B1%D0%B0/5%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80/Alg/HomeWork-Saprykin/HomeWork-Saprykin/AStar.cpp"
+                  timestampString = "535307196.390052"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "229"
+                  endingLineNumber = "229"
+                  offsetFromSymbolStart = "6539">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AS::AStar::FindPaths(std::__1::shared_ptr&lt;Point&gt;, std::__1::shared_ptr&lt;Point&gt;, Map&amp;)"
+                  moduleName = "HomeWork-Saprykin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Google%20%D0%94%D0%B8%D1%81%D0%BA/Documents/%D1%83%D1%87%D0%B5%D0%B1%D0%B0/5%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80/Alg/HomeWork-Saprykin/HomeWork-Saprykin/AStar.cpp"
+                  timestampString = "535307196.392733"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "229"
+                  endingLineNumber = "229"
+                  offsetFromSymbolStart = "9923">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AS::AStar::FindPaths(std::__1::shared_ptr&lt;Point&gt;, std::__1::shared_ptr&lt;Point&gt;, Map&amp;)"
+                  moduleName = "HomeWork-Saprykin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Vlad/Google%20%D0%94%D0%B8%D1%81%D0%BA/Documents/%D1%83%D1%87%D0%B5%D0%B1%D0%B0/5%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80/Alg/HomeWork-Saprykin/HomeWork-Saprykin/AStar.cpp"
+                  timestampString = "535307196.394394"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "229"
+                  endingLineNumber = "229"
+                  offsetFromSymbolStart = "12678">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomeWork-Saprykin/AStar.cpp"
+            timestampString = "535308998.243224"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
             landmarkName = "AS::AStar::FindPaths(shared_ptr&lt;Point&gt; __start, shared_ptr&lt;Point&gt; __finish , Map &amp; m)"
             landmarkType = "7">
          </BreakpointContent>

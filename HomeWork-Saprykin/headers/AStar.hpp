@@ -25,7 +25,7 @@ namespace AS {
         void PrintPath(const vector<shared_ptr<Point>> & _v); ///печать пути
         bool isPointerInSet(const shared_ptr<Point> & p, set<shared_ptr<Point>>  s); ///есть ли Point в множестве
         bool isPointerInVect(const shared_ptr<Point> & p, const vector<shared_ptr<Point>> & v);
-        vector<shared_ptr<Point>> FindPath(shared_ptr<Point> start, shared_ptr<Point> finish , Map &); ///функция поиска пути
+        vector<shared_ptr<Point>> FindPath(shared_ptr<Point> start, shared_ptr<Point> finish , Map &, bool blocked = false); ///функция поиска пути
         vector<shared_ptr<Point>> FindPaths(shared_ptr<Point> start, shared_ptr<Point> finish , Map &); ///обертка для поиска всех возможных путей
         
         vector<shared_ptr<Point>> DoorsInPath(const vector<shared_ptr<Point>> & path, Map & m);

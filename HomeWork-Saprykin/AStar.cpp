@@ -23,19 +23,6 @@ shared_ptr<Point> AS::AStar::find_min_f(const set<shared_ptr<Point>> & s){
     return p;
 }
 
-//shared_ptr<Point> AS::AStar::find_min_in_set_between2(const shared_ptr<Point> & a, const shared_ptr<Point> & b, const set<shared_ptr<Point>> & s){
-//    //a, b, s
-//    shared_ptr<Point> tmp;
-//    double D = INFINITY; //distance
-//    for(auto i : s){
-//        if((distance(i, a) + distance(i, b)) < D){
-//            D = distance(i, a) + distance(i, b);
-//            tmp = i;
-//        }
-//    }
-//
-//    return tmp;
-//}
 
 vector<shared_ptr<Point>> AS::AStar::reconstruct_Path(const shared_ptr<Point> &start, const shared_ptr<Point> &finish){
     //IMPORTANT
@@ -160,27 +147,19 @@ vector<shared_ptr<Point>> AS::AStar::sortKeys(const set<shared_ptr<Point>> & key
     //return set<shared_ptr<Point>>();
 }
 
-
-/*
- итого - либо
- течет где-то память либо
- ОС оптимизирует память по собственному желанию либо
- магия, разобраться какого хрена это происходит
- */
 vector<shared_ptr<Point>> AS::AStar::FindPaths(shared_ptr<Point> __start, shared_ptr<Point> __finish , Map & m){
     //начинай свой день с новыми объектами вместо старых
     shared_ptr<Point> start(make_shared<Point>(__start.get()->m, __start.get()->n));
     shared_ptr<Point> finish(make_shared<Point>(__finish.get()->m, __finish.get()->n));
     
-    cout << "In FindPaths beginning: " << start.get()->m << "-" << start.get()->n << " " << finish.get()->m << "-" << finish.get()->n << endl;
     vector<shared_ptr<Point>> path = FindPath(start, finish, m);
+    vector<shared_ptr<Point>> bPath = FindPath(start, finish, m, true);
     vector<shared_ptr<Point>> doors = DoorsInPath(path, m);
-    //return path;
     reverse(path.begin(), path.end());
+    reverse(bPath.begin(), bPath.end());
     //проверить, есть ли путь вообще
     if(path.empty() || doors.empty()){
-        cout << "DEBUG" << endl;
-        return path; //исчезают данные
+        return path;
     }
     
     for(int a{0}; a < doors.size(); ++a){
@@ -228,12 +207,17 @@ vector<shared_ptr<Point>> AS::AStar::FindPaths(shared_ptr<Point> __start, shared
     if(__path.empty()) return __path;
     path.insert(path.end(), __path.begin(), __path.end());
     //добавить пройденные двери и ключи в глобальное множество
-    
-    return path;
+    //(path.size() < bPath.size())?(return path):(return bPath);
+    if(path.size() > bPath.size() && !bPath.empty()){
+        return bPath;
+    }else{
+        return path;
+    }
+    //return path;
 }
 
 //передаем копии указателей // а оно нам надо? // по хорошему, надо передавать копии объектов, ибо че с элементами происходит?
-vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_ptr<Point> _finish, Map & m){
+vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_ptr<Point> _finish, Map & m, bool blocked){
     //при углублении, передача start-finish, сохраняет свои направления
     set<shared_ptr<Point>> closedSet;
     set<shared_ptr<Point>> openSet;
@@ -272,7 +256,12 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
             if(isPointerInSet(Y, closedSet)){
                 continue;
             }
-
+            if(blocked){
+                if(m.isDoor(Y)){
+                    closedSet.insert(Y);
+                    continue; //возможно добавить в закрытое множество
+                }
+            }
             //вычисляем g(x) для обрабатываемого соседа
             double tentative_g_score = X.get()->g + distance(X, Y);
             bool tentative_is_better{false};
