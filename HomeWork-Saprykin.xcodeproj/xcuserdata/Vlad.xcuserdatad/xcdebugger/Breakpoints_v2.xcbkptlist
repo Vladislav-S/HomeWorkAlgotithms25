@@ -1519,8 +1519,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "289"
             endingLineNumber = "289"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "AS::AStar::FindPath(shared_ptr&lt;Point&gt; _start, shared_ptr&lt;Point&gt; _finish, Map &amp; m, bool blocked)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

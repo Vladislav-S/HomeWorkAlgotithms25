@@ -119,7 +119,7 @@ vector<shared_ptr<Point>> AS::AStar::FindKeysForDoors(const vector<shared_ptr<Po
 //
     return sortKeys(_keys, start);
 }
-//
+//ПОСЧИТАТЬ СЛОЖНОСТЬ - N^2, где N - количество ключей
 vector<shared_ptr<Point>> AS::AStar::sortKeys(const set<shared_ptr<Point>> & keys, const shared_ptr<Point> & start){
     double minDist = INFINITY;
     shared_ptr<Point> current = start;
@@ -232,6 +232,7 @@ vector<shared_ptr<Point>> AS::AStar::FindPath(shared_ptr<Point> _start, shared_p
     
     openSet.insert(start);
     
+    //пока открытое множество не пустое
     while (!openSet.empty()){
         // x = вершина из openset  с наименьшим f
         shared_ptr<Point> X = find_min_f(openSet);

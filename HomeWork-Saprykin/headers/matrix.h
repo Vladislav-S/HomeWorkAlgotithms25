@@ -9,7 +9,6 @@
 #ifndef matrix_h
 #define matrix_h
 #include "base.h"
-#pragma once
 using namespace std;
 
 template <typename A>

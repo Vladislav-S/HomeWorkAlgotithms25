@@ -8,7 +8,6 @@
 
 #ifndef map_h
 #define map_h
-
 #include "base.h"
 #include "matrix.h"
 using namespace std;

@@ -5,6 +5,9 @@
 //  Created by Vlad Saprykin on 26.11.2017.
 //  Copyright © 2017 Vlad Saprykin. All rights reserved.
 //
+#ifndef __cplusplus
+#error A C++ compiler is required!
+#endif 
 #include "headers/map.h"
 #include "headers/AStar.hpp"
 

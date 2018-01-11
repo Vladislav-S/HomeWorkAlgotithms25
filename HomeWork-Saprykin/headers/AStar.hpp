@@ -10,7 +10,6 @@
 #define AStar_hpp
 
 #include "map.h"
-
 namespace AS {
 
     class AStar{
